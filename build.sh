@@ -10,8 +10,4 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package
-yum install -y podman
-
-#### Example for enabling a System Unit File
-
-systemctl enable podman.socket
+yum install -y rpm-ostree
